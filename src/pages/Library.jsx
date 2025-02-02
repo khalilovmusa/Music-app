@@ -2,7 +2,7 @@ import React from 'react'
 
 const Library = () => {
   return (
-    <div>
+    <div className="screen-container">
       Library
     </div>
   )
