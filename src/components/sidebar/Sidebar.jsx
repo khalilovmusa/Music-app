@@ -5,7 +5,7 @@ import { MdSpaceDashboard } from "react-icons/md";
 import { MdFavorite } from "react-icons/md";
 import { FaPlay } from "react-icons/fa";
 import { FaGripfire } from "react-icons/fa6";
-import { FaSignOutAlt } from "react-icons/fa";
+import { VscSignOut } from "react-icons/vsc";
 import { IoLibrary } from "react-icons/io5";
 
 
@@ -20,7 +20,7 @@ const Sidebar = () => {
                 <SidebarButton title="Favorites" to="/favorites" icon={< MdFavorite />} />
                 <SidebarButton title="Library" to="/" icon={<IoLibrary/>} />
             </div>
-            <SidebarButton title="Sign Out" to="/" icon={<FaSignOutAlt />} />
+            <SidebarButton title="Sign Out" to="" icon={<VscSignOut /> } />
         </div>
     )
 }
